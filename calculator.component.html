@@ -1,0 +1,7 @@
+<div class="calculator">
+    <h1>Calculator</h1>
+    
+    <button class="responsive" *ngFor="let button of buttons" (click)="addToExpression(button)" >
+        {{button}}
+    </button>
+</div>
